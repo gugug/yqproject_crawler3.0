@@ -819,7 +819,7 @@ class WeiboPage:
         self.detection()
 
 def main_weibo():
-    MoblieWeibo().login('odlmyfbw@sina.cn', 'tttt5555')  # 'odlmyfbw@sina.cn','tttt5555')#'1939777358@qq.com', '123456a')
+    MoblieWeibo().login('', '')
     weibopage = WeiboPage(2803301701)
     while True:
         weibopage.run()
